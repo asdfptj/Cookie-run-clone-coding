@@ -20,18 +20,41 @@ header {
     display: flex;
     background-color: #191D24;
 }
+
 .top_nav {
     margin: 0 auto;
-    width: 1200px;
+    width: 1218px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.top_nav a{
+.top_nav a {
     color: #AEAEB4;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-right: 50px;
 }
-.language_button  {
+
+.logo img {
+    width: 154px;
+}
+
+
+
+.language_button {
     background-color: #191D24;
     color: #AEAEB4;
     border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    width: 70px;
+}
+
+option {
+    text-align: start;
+    background: #fff;
+    outline: none;
 }

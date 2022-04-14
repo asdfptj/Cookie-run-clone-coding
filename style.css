@@ -11,17 +11,22 @@ a {
 
 #container {
     width: 100%;
-    height: 1080px;
     margin: 0 auto;
 }
 
 header {
     width: 100%;
-    height: 4%;
+    height: 42px;
     display: flex;
-    justify-content: end;
     background-color: #191D24;
 }
+.top_nav {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .top_nav a{
     color: #AEAEB4;
 }

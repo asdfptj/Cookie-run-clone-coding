@@ -7,6 +7,7 @@
 
 a {
     text-decoration: none;
+    list-style: none;
 }
 
 #container {
@@ -14,10 +15,12 @@ a {
     margin: 0 auto;
 }
 
-header {
+.wrap {
     width: 100%;
     height: 42px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #191D24;
 }
 
@@ -25,7 +28,6 @@ header {
     margin: 0 auto;
     width: 1218px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -57,4 +59,39 @@ option {
     text-align: start;
     background: #fff;
     outline: none;
+}
+
+
+.header {
+    width: 100%;
+    height: 75px;
+    background: #000000B3;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+
+.nav {
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: 105px;
+}
+
+.nav a {
+
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.nav a:hover ul {
+    color: #FFE81E;
+    background: linear-gradient(94.1deg, #FFF8A6 -0.37%, #FFE81E 62.65%, #FFAA00 99.63%);
+
 }

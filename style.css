@@ -83,15 +83,21 @@ option {
     width: 105px;
 }
 
-.nav a {
-
+.linear {
     color: #fff;
+    -webkit-background-clip: text;
+    background-clip: text;
+
     font-size: 1.125rem;
     font-weight: bold;
 }
 
-.nav a:hover ul {
-    color: #FFE81E;
-    background: linear-gradient(94.1deg, #FFF8A6 -0.37%, #FFE81E 62.65%, #FFAA00 99.63%);
-
+.linear:hover {
+    background: #55ffaa;
+    background: linear-gradient(to right, #55ff55, #55ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.125rem;
+    font-weight: bold;
 }
